@@ -10,13 +10,13 @@ import { addDoc, collection, getFirestore } from "firebase/firestore";
 import toast from "react-hot-toast";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBZo1t9rDirmlCby7zYLCHE2Y1OK75gI88",
-  authDomain: "lonestream-27909.firebaseapp.com",
-  projectId: "lonestream-27909",
-  storageBucket: "lonestream-27909.firebasestorage.app",
-  messagingSenderId: "813486163865",
-  appId: "1:813486163865:web:32d0077640a4e02f483508",
-  measurementId: "G-PXY13WN7WT"
+  apiKey: "AIzaSyASwsOSv7yIQ6fz8JdZCmfbIgqatfWqlqo",
+  authDomain: "lone-27909.firebaseapp.com",
+  projectId: "lone-27909",
+  storageBucket: "lone-27909.firebasestorage.app",
+  messagingSenderId: "27841367048",
+  appId: "1:27841367048:web:eb2692d536e5097eae55bd",
+  measurementId: "G-KXDS0X0LPZ"
 };
 
 
