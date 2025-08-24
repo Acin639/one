@@ -12,7 +12,6 @@ import toast from "react-hot-toast";
 const firebaseConfig = {
   apiKey: "AIzaSyBZo1t9rDirmlCby7zYLCHE2Y1OK75gI88",
   authDomain: "lonestream-27909.firebaseapp.com",
-  databaseURL: "https://lonestream-27909-default-rtdb.firebaseio.com",
   projectId: "lonestream-27909",
   storageBucket: "lonestream-27909.firebasestorage.app",
   messagingSenderId: "813486163865",
