@@ -6,7 +6,7 @@ import play_icon from "../../assets/bell_icon.svg"
 import profile_img from "../../assets/profile_img.png"
 import caret_icon from "../../assets/caret_icon.svg"
 import { logout } from '../../firebase'
-import search from '../../pages/search/search.jsx'
+import searcher from '../../pages/search/search.jsx'
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from "react-router-dom"
 
 const Navbar = () => {
@@ -49,7 +49,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-right">
-        <img src={search} onclick={()=> navigate("/search")} alt="search" className='icons' />
+        <img src={search} onclick={()=> navigate("/searcher")} alt="search" className='icons' />
         <img src={play_icon} alt="play_icon" className='icons'/>
         <div className="navbar-profile">
         <img src={profile_img} alt="profile_img" className='profile'/>
